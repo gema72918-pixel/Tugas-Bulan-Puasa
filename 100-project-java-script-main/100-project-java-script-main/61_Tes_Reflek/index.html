@@ -1,0 +1,21 @@
+<!--Rashqa Andrean X PPLG 2-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tes Refleks</title>
+  <style>
+    body { font-family: sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; background: #f4f4f4; }
+    button { padding: 12px 24px; font-size: 16px; margin-top: 20px; cursor: pointer; }
+    #kotak { width: 200px; height: 200px; background: #ddd; display: flex; align-items: center; justify-content: center; font-size: 18px; display: none; border-radius: 10px; }
+    #info { margin-top: 10px; font-size: 18px; color: #333; }
+  </style>
+</head>
+<body>
+  <h2>🔴 Klik secepatnya saat kotak muncul!</h2>
+  <button onclick="mulai()">Mulai</button>
+  <div id="kotak" onclick="klik()">KLIK!</div>
+  <div id="info"></div>
+  <script src="script.js"></script>
+</body>
+</html>

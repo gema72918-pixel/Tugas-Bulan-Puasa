@@ -1,0 +1,38 @@
+<!--Rashqa Andrean X PPLG 2-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Luas Segitiga</title>
+  <script src="script.js" defer></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #eef2f3;
+      padding: 40px;
+      max-width: 500px;
+      margin: auto;
+      text-align: center;
+    }
+    input, button {
+      padding: 10px;
+      margin-top: 10px;
+      width: 100%;
+      font-size: 16px;
+    }
+    p {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Menghitung Luas Segitiga</h2>
+  <label for="alas">Masukkan alas:</label><br />
+  <input type="number" id="alas" placeholder="Contoh: 8" /><br />
+  <label for="tinggi">Masukkan tinggi:</label><br />
+  <input type="number" id="tinggi" placeholder="Contoh: 5" /><br />
+  <button onclick="hitungLuas()">Hitung</button>
+  <p id="hasil"></p>
+</body>
+</html>

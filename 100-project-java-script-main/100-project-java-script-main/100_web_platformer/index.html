@@ -1,0 +1,29 @@
+<!--Rashqa Andrean X PPLG 2-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Program Zombie Survival</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="overlay" id="startMenu">
+    <h1>🧟 Zombie Platformer 🧟</h1>
+    <button id="startBtn">Start Game</button>
+  </div>
+
+  <div class="overlay" id="gameOverMenu" style="display: none;">
+    <h1>💀 YOU DIED 💀</h1>
+    <p id="finalScore">Score: 0</p>
+    <button id="retryBtn">Retry</button>
+  </div>
+
+  <div id="scoreDisplay">Score: 0</div>
+
+  <canvas id="game" width="800" height="400"></canvas>
+
+  <audio id="sfxJump" src="assets/jump.mp3"></audio>
+  <audio id="sfxDie" src="assets/sound.mp3"></audio>
+</body>
+</html>

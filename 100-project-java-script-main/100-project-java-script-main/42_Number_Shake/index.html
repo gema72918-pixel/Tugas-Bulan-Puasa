@@ -1,0 +1,23 @@
+<!--Rashqa Andrean X PPLG 2-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Goyang Angka</title>
+  <style>
+    body { text-align: center; font-family: sans-serif; padding: 50px; }
+    #angka { font-size: 40px; animation: goyang 0.5s infinite alternate; }
+    @keyframes goyang {
+      from { transform: rotate(-5deg); }
+      to { transform: rotate(5deg); }
+    }
+  </style>
+</head>
+<body>
+  <h2>Goyang Angka</h2>
+  <div id="angka">0</div>
+  <button onclick="acakAngka()">Putar!</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

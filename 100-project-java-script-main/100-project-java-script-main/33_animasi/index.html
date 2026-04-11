@@ -1,0 +1,30 @@
+<!--Rashqa Andrean X PPLG 2-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Animasi Box</title>
+  <style>
+    .box {
+      width: 80%;
+      height: 100px;
+      margin: 100px auto;
+      background: lightgray;
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 0.6s ease;
+    }
+    .visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

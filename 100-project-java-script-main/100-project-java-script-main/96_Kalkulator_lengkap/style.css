@@ -1,0 +1,46 @@
+/* Rashqa Andrean X PPLG 2 */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  padding: 40px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+  max-width: 400px;
+  font-size: 16px;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+}

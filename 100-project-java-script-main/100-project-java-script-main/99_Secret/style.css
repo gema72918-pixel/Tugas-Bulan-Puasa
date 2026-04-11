@@ -1,0 +1,56 @@
+/* Rashqa Andrean X PPLG 2 */
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+  cursor: none;
+  position: relative;
+  transition: background-color 1s ease;
+}
+
+.vignette {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(0,0,0,1) 100%);
+  mix-blend-mode: lighten;
+  z-index: 10;
+}
+
+#revealBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 30px;
+  font-size: 20px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 5;
+  pointer-events: none;
+}
+
+#revealBtn.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#misteriImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: auto;
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.2);
+  transition: all 3s ease;
+  z-index: 6;
+}

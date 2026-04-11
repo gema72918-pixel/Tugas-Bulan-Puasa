@@ -1,0 +1,45 @@
+<!--Rashqa Andrean X PPLG 2-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Slot Machine</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding-top: 50px; }
+    .slot-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    .slot {
+      font-size: 50px;
+      border: 2px solid #333;
+      padding: 10px 20px;
+      width: 70px;
+      text-align: center;
+      background-color: #f0f0f0;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    #message {
+      margin-top: 20px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h2>🎰 Mesin Slot</h2>
+  <div class="slot-container">
+    <div class="slot" id="s1">🍒</div>
+    <div class="slot" id="s2">🍋</div>
+    <div class="slot" id="s3">🍊</div>
+  </div>
+  <button onclick="putar()">Putar</button>
+  <div id="message"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

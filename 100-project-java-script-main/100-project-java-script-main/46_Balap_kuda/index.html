@@ -1,0 +1,32 @@
+<!--Rashqa Andrean X PPLG 2-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Judi Balap Kuda</title>
+  <style>
+    body { font-family: sans-serif; padding: 20px; text-align: center; }
+    .track { width: 100%; height: 60px; margin-bottom: 20px; position: relative; background: #f1f1f1; border-radius: 10px; }
+    .kuda { position: absolute; top: 15px; width: 50px; font-size: 30px; transition: left 0.1s; }
+    #hasil { font-size: 20px; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h2>🏇Balap Kuda</h2>
+  <p>Pilih kudamu dan mulai balapan!</p>
+  <select id="pilihanKuda">
+    <option value="0">Kuda 1 🐴</option>
+    <option value="1">Kuda 2 🐴</option>
+    <option value="2">Kuda 3 🐴</option>
+  </select>
+  <button onclick="mulaiBalapan()">Mulai Balapan</button>
+
+  <div class="track" id="track0"><div class="kuda" id="kuda0">🐎</div></div>
+  <div class="track" id="track1"><div class="kuda" id="kuda1">🐎</div></div>
+  <div class="track" id="track2"><div class="kuda" id="kuda2">🐎</div></div>
+
+  <div id="hasil"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

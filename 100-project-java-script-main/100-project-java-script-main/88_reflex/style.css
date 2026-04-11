@@ -1,0 +1,42 @@
+/* Rashqa Andrean X PPLG 2 */
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 18px;
+  background: #29b6f6;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0288d1;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: crimson;
+  border-radius: 50%;
+  position: absolute;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+#keys {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.key {
+  width: 40px;
+  height: 150px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #aaa;
+}

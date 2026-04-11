@@ -1,0 +1,31 @@
+<!--Rashqa Andrean X PPLG 2-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Drag & Drop</title>
+  <style>
+    #dropzone {
+      width: 300px;
+      height: 200px;
+      border: 2px dashed #555;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px auto;
+    }
+
+    #image {
+      width: 100px;
+      cursor: move;
+    }
+  </style>
+</head>
+<body>
+  <h2 style="text-align:center;">Drag & Drop Gambar</h2>
+  <div id="dropzone">Tarik gambar ke sini</div>
+  <img id="image" src="rosie.jpg" draggable="true">
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!--Rashqa Andrean X PPLG 2-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Lucky Door</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding-top: 50px; background: #fdfdfd; }
+    .pintu { width: 80px; height: 120px; background: #ccc; display: inline-block; margin: 10px; line-height: 120px; font-weight: bold; cursor: pointer; border-radius: 8px; transition: 0.3s; }
+    .pintu:hover { background: #aaa; }
+    #hasil { margin-top: 20px; font-size: 18px; color: darkgreen; }
+  </style>
+</head>
+<body>
+  <h2>🚪 Pilih salah satu pintu!</h2>
+  <div class="pintu" onclick="pilih(1)">1</div>
+  <div class="pintu" onclick="pilih(2)">2</div>
+  <div class="pintu" onclick="pilih(3)">3</div>
+  <div id="hasil"></div>
+  <script src="script.js"></script>
+</body>
+</html>

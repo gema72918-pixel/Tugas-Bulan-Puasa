@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to top, #ffe0f0, #ffffff);
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  background-color: #ff69b4;
+  border: none;
+  padding: 15px 30px;
+  color: white;
+  font-size: 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.1s ease;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.love {
+  position: absolute;
+  bottom: 0;
+  font-size: 48px;
+  animation: naik 2s linear forwards;
+}
+
+@keyframes naik {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}

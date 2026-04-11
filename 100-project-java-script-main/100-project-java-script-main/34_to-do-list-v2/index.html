@@ -1,0 +1,22 @@
+<!--Rashqa Andrean X PPLG 2-->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; }
+    ul { list-style-type: none; padding: 0; }
+    li { padding: 8px; margin: 5px; background: #eee; cursor: pointer; }
+    li.checked { text-decoration: line-through; color: gray; }
+  </style>
+</head>
+<body>
+  <h2>To-Do List</h2>
+  <input id="taskInput" placeholder="Tulis tugas...">
+  <button onclick="tambahTugas()">Tambah</button>
+  <ul id="taskList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
