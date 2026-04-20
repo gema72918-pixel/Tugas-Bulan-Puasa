@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arsa Prayata</title>
+  <style>
+    body{
+      font-family: Arial;
+    }
+    .container{
+      display: flex;
+      flex-direction: row;
+      height: 2.5em;
+      background-color: rgb(53, 53, 53);
+    }
+    .area button{
+      background: none;
+      border: none;
+      margin: 5px 0 5px 5px;
+      background-color: gray;
+      border-radius: 10px;
+      width: 2.4em;
+    }
+    .area{
+      display: flex;
+      flex-direction: row;
+    }
+    .tab{
+      margin-left: -4.5em;
+      display: flex;
+      flex-direction: row;
+      background-color: #494949;
+      border-radius: 10px 10px 0 0;
+      padding: 5px 0 5px 5px;
+    }
+    .tab img{
+      vertical-align: middle;
+    }
+    .tool-search{
+      background-color: black;
+      border: 1px solid white;
+      max-width: 5em;
+      padding: 0px 9px 1px 9px;
+      height: 1.4em;
+      position: relative;
+      top: 1.7em;
+      left: -0.9em;
+      opacity: 0;
+    }
+    .tool-search p{
+      position: relative;
+      top: -5px;
+    }
+    .V:hover ~ .tool-search{
+      opacity: 1;
+    }
+    .V:hover{
+      background-color: #646464 !important;
+    }
+    .tool-search2{
+      background-color: black;
+      border: 1px solid white;
+      max-width: 5em;
+      padding: 0px 9px 1px 9px;
+      height: 1.4em;
+      position: relative;
+      top: 1.7em;
+      left: -0.9em;
+      opacity: 0;
+    }
+    .tool-search2 p{
+      position: relative;
+      top: -5px;
+    }
+    .new:hover{
+      background-color: #494949 !important;
+    }
+    .new:hover ~ .tool-search2{
+      opacity: 1;
+    }
+    .tool-arsa{
+      background-color: #202225;
+      position: absolute;
+      left: 3em;
+      top: 3.2em;
+      width: 15em;
+      border-radius: 10px;
+      opacity: 0;
+    }
+  .tool-arsa p{
+    color: white;
+    font-size: 13px;
+    margin-left: 1em;
+  }
+  .speed{
+    background-color: #303136;
+    position: relative;
+    height: 40px;
+    border-radius: 0 0 10px 10px;
+  }
+  .speed p{
+    position: relative;
+    top: 10px;
+  }
+  .arsa:hover ~ .tool-arsa{
+    opacity: 1;
+    cursor: pointer;
+  }
+  .container .new{
+    border-radius: 10px;
+  }
+  .container .new:hover{
+    background-color: gray;
+  }
+  .V{
+    background-color: #494949 !important;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="area">
+      <button class="V">v</button>
+      <div class="tool-search">
+        <p style="font-size: 0.7em; color: white; text-align: center;">Search tabs</p>
+      </div>
+      <div class="tab">
+        <img src="internet.svg" alt="" width="25">
+        <!-- <p style="margin-top: 0.6em; margin-left: .5em; font-size: .8em; color: white;" class="arsa">Arsa Prayata</p> -->
+         <a href="#" class="arsa" style="margin-top: 0.5em; margin-left: .5em; font-size: 0.9em; color: white; text-decoration: none;">Arsa Prayata</a>
+        <button style="background: none; border: none; margin-left: 7em; color: white;">x</button>
+        <div class="tool-arsa">
+          <p>Arsa Prayata</p>
+          <p>127.0.0.1:5500</p>
+          <div class="speed">
+            <p>Memory usage: 24.1 MB</p>
+          </div>
+        </div>
+      </div>
+      <button style=" border-radius: 50%; height: 30px; width: 30px; background-color: rgb(53, 53, 53); color: white; font-size: 1.3em;" class="new">+</button>
+      <div class="tool-search2">
+        <p style="font-size: 0.7em; color: white; text-align: center;">New tab</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

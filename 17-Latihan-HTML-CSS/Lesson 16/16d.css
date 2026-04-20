@@ -1,0 +1,124 @@
+body{
+  font-family: Arial;
+  display: flex;
+  flex-direction: row;
+}
+.container{
+  max-width: 10em;
+  margin-right: 13em;
+}
+.thumbnail img{
+  width: 21em;
+}
+.thumbnail .time{
+  position: relative;
+  top: -2.5em;
+  left: 19em;
+  background-color: black;
+  color: white;
+  width: 3em;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 15px;
+}
+.title img{
+  width: 45px;
+  border-radius: 50%;
+}
+.tooltips img{
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+}
+.tooltips-1 img{
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+}
+.title{
+  display: flex;
+  flex-direction: row;
+  margin-top: -1.1em;
+  width: 20em;
+}
+.title a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  position: relative;
+}
+.title .title-channel{
+  position: relative;
+  top: .4em;
+  left: .8em;
+}
+.channel{
+  width: 15em;
+  position: relative;
+  left: 3.7em;
+  top: -.5em;
+}
+.channel-1{
+  width: 15em;
+  position: relative;
+  left: 3.7em;
+  top: -1.5em;
+}
+.channel p{
+  color: gray;
+  margin: 0;
+  font-size: 15px;
+}
+.channel-1 p{
+  color: gray;
+  margin: 0;
+  font-size: 15px;
+}
+.tooltips{
+  position: absolute;
+  top: 17em;
+  left: 1.1em;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  padding: 15px 15px;
+  width: 10em;
+  background-color: white !important;
+  opacity: 0;
+  transition: opacity 0.15s;
+  z-index: 100;
+}
+.tooltips-1{
+  position: absolute;
+  top: 17em;
+  left: 24em;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  padding: 15px 15px;
+  width: 10em;
+  background-color: white !important;
+  opacity: 0;
+  transition: opacity 0.15s;
+  z-index: 100;
+}
+.profile-channel:hover ~ .tooltips{
+  opacity: 1 !important;
+}
+.profile-channel:hover ~ .tooltips-1{
+  opacity: 1 !important;
+}
+.subscribe{
+  margin-left: .8em;
+  font-size: 12px;
+  margin-top: -5px;
+}
+.subscribe-1{
+  margin-left: .8em;
+  font-size: 12px;
+  margin-top: -5px;
+}
